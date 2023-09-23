@@ -46,6 +46,7 @@ The second model is built using **TensorFlow-Keras** and is stored in a **Tensor
    ```
 ## Features ⭐
 Create the training dataset using both a **Webcam** and **recording video data (.mp4)**, extracting relevant frames, and annotating those frames with corresponding labels.
+### View Folder: [Video Decoder](https://github.com/ThisIs-Developer/Body-Language-Detection-with-MediaPipe-and-OpenCV/tree/main/Video%20Decoder)
 #### Modify the codef for MP4:
 ```python
 class_name = "Happy"
