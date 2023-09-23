@@ -61,7 +61,7 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
     while cap.isOpened():
         ret, frame = cap.read()
 ```
-### 2. Trained the machine learning models to recognize 10 different body language and facial expression.
+### 2. Trained models to recognize 10 distinct body language and facial expression categories, enabling the automated recognition of emotions and gestures in videos.
 #### Class Labels
 1. Happy
 2. Sad
@@ -73,4 +73,4 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
 8. Excited
 9. Pain
 10. Depressed
-
+### 3. Visual representation of different emotional expressions, with each expression depicted in a separate chart or plot using the Matplotlib library in Python.
