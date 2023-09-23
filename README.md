@@ -74,3 +74,14 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
 9. Pain
 10. Depressed
 ### 3. Visual representation of different emotional expressions, with each expression depicted in a separate chart or plot using the Matplotlib library in Python.
+#### Pie plot
+![image](https://github.com/ThisIs-Developer/Body-Language-Detection-with-MediaPipe-and-OpenCV/assets/109382325/9562c572-fe44-4982-aa8b-9a9e7a241f52)
+#### Bar plot
+![image](https://github.com/ThisIs-Developer/Body-Language-Detection-with-MediaPipe-and-OpenCV/assets/109382325/b1882a70-f2f8-4f38-ae06-8acfbce5e30f)
+#### Horizontal bar plot
+![image](https://github.com/ThisIs-Developer/Body-Language-Detection-with-MediaPipe-and-OpenCV/assets/109382325/7585391a-8c02-4c8a-87ea-cc4771f6fc09)
+#### Horizontal bar plot in creasing order of sizes
+![image](https://github.com/ThisIs-Developer/Body-Language-Detection-with-MediaPipe-and-OpenCV/assets/109382325/a1776f7f-994d-4fca-97c2-22e03a4f4465)
+#### Horizontal bar plot with increasing order of sizes
+![image](https://github.com/ThisIs-Developer/Body-Language-Detection-with-MediaPipe-and-OpenCV/assets/109382325/4f24a433-daac-4024-90ff-34f00f9c2825)
+
