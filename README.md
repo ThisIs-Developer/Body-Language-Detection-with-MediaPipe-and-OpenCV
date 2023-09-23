@@ -3,10 +3,6 @@
 ### 1. Scikit-Learn (.pkl)
 The first model is built using **Scikit-Learn** and is stored in a **.pkl (Python Pickle) format**.
 1. It employs pipelines to encapsulate preprocessing and modeling steps for multiple algorithms.
-              1. LogisticRegression
-              2. RidgeClassifier
-              3. RandomForestClassifier
-              4. GradientBoostingClassifier
     ```python
    pipelines = {
     'lr':make_pipeline(StandardScaler(), LogisticRegression(max_iter=5000)),
@@ -15,12 +11,8 @@ The first model is built using **Scikit-Learn** and is stored in a **.pkl (Pytho
     'gb':make_pipeline(StandardScaler(), GradientBoostingClassifier()),
 }
 ```
-1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
-3. It systematically trains and evaluates different models using accuracy as a metric.
-4. It saves the best-performing model for later use using pickle.
+2. It systematically trains and evaluates different models using accuracy as a metric.
+3. It saves the best-performing model for later use using pickle.
 ### 2. TensorFlow-Keras (.tflite)
 
 The second model is built using **TensorFlow-Keras** and is stored in a **TensorFlow Lite (.tflite) format**. TensorFlow-Keras is renowned for its deep learning capabilities, and the TensorFlow Lite format ensures that this model can be seamlessly integrated into various applications while maintaining low latency and optimal performance.
