@@ -3,7 +3,7 @@
 ### 1. Scikit-Learn (.pkl)
 The first model is built using **Scikit-Learn** and is stored in a **.pkl (Python Pickle) format**.
 1. It employs pipelines to encapsulate preprocessing and modeling steps for multiple algorithms.
-   i. LogisticRegression
+   1.1. LogisticRegression
    ii. RidgeClassifier
    iii. RandomForestClassifier
    iv. GradientBoostingClassifier
