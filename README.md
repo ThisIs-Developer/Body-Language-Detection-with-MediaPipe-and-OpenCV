@@ -10,7 +10,8 @@ The first model is built using **Scikit-Learn** and is stored in a **.pkl (Pytho
     'rf':make_pipeline(StandardScaler(), RandomForestClassifier()),
     'gb':make_pipeline(StandardScaler(), GradientBoostingClassifier()),
     }
-```
+    ```
+
 2. It systematically trains and evaluates different models using accuracy as a metric.
 3. It saves the best-performing model for later use using pickle.
 ### 2. TensorFlow-Keras (.tflite)
