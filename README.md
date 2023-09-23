@@ -7,7 +7,7 @@ The first model is built using **Scikit-Learn** and is stored in a **.pkl (Pytho
               2. RidgeClassifier
               3. RandomForestClassifier
               4. GradientBoostingClassifier
-   ```python
+    ```python
    pipelines = {
     'lr':make_pipeline(StandardScaler(), LogisticRegression(max_iter=5000)),
     'rc':make_pipeline(StandardScaler(), RidgeClassifier()),
