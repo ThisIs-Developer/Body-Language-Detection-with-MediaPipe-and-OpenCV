@@ -57,10 +57,17 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
     
     while cap.isOpened():
         ret, frame = cap.read()
-        
-        # If frame is read correctly ret is True
-        if not ret:
-            print("Can't receive frame (stream end?). Exiting ...")
-            break
 ```
+### 2. Trained a machine learning model to recognize 10 different body language and facial expression.
+#### Class Labels
+1. Happy
+2. Sad
+3. Angry
+4. Surprised
+5. Confused
+6. Tension
+7. Surprised
+8. Excited
+9. Pain
+10. Depressed
 
