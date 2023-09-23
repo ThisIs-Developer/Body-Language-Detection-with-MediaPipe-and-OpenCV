@@ -42,8 +42,8 @@ The second model is built using **TensorFlow-Keras** and is stored in a **Tensor
     open("body_language.tflite", "wb").write(tflite_model)
    ```
 ## Feature
-Create the training dataset using both a webcam and recording video data (.mp4), extracting relevant frames, and annotating those frames with corresponding labels.
-#### Modify the code:
+Create the training dataset using both a **Webcam** and **recording video data (.mp4)**, extracting relevant frames, and annotating those frames with corresponding labels.
+#### Modify the codef for MP4:
 ```python
 class_name = "Happy"
 # Replace 'path_to_your_video_file' with the actual path to your video file
