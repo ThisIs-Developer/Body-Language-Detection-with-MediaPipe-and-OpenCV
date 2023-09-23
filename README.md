@@ -13,7 +13,17 @@ The first model is built using **Scikit-Learn** and is stored in a **.pkl (Pytho
     ```
 
 2. It systematically trains and evaluates different models using accuracy as a metric.
+   ```output
+    lr 0.995260663507109
+    rc 0.985781990521327
+    rf 0.9881516587677726
+    gb 0.9928909952606635
+    ```
 3. It saves the best-performing model for later use using pickle.
+   ```python
+    with open('body_language.pkl', 'wb') as f:
+    pickle.dump(fit_models['rf'], f)
+   ```
 ### 2. TensorFlow-Keras (.tflite)
 
 The second model is built using **TensorFlow-Keras** and is stored in a **TensorFlow Lite (.tflite) format**. TensorFlow-Keras is renowned for its deep learning capabilities, and the TensorFlow Lite format ensures that this model can be seamlessly integrated into various applications while maintaining low latency and optimal performance.
