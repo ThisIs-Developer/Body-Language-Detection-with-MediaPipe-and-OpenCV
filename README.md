@@ -1,5 +1,6 @@
 # Body-Language-Detection-with-MediaPipe-and-OpenCV
 **This Jupyter Notebook (IPython Notebook) provides the code and instructions for implementing body language detection using [MediaPipe](https://github.com/google/mediapipe) and [OpenCV](https://github.com/opencv/opencv). This innovative tool incorporates two distinct models to achieve its functionality, providing users with a comprehensive approach to body language analysis.**
+
 ## 1. Scikit-Learn (.pkl)
 The first model is built using **Scikit-Learn** and is stored in a **.pkl (Python Pickle) format**.
 1. It employs pipelines to encapsulate preprocessing and modeling steps for multiple algorithms.
@@ -40,5 +41,22 @@ The second model is built using **TensorFlow-Keras** and is stored in a **Tensor
     tflite_model = converter.convert()
     open("body_language.tflite", "wb").write(tflite_model)
    ```
-
+## Feature
+Create the training dataset using both a webcam and recording video data (.mp4), extracting relevant frames, and annotating those frames with corresponding labels.
+#### Modify the code:
+```python
+class_name = "Happy"
+# Replace 'path_to_your_video_file' with the actual path to your video file
+cap = cv2.VideoCapture('path_to_your_video_file') 
+# Initiate holistic model
+with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
+    
+    while cap.isOpened():
+        ret, frame = cap.read()
+        
+        # If frame is read correctly ret is True
+        if not ret:
+            print("Can't receive frame (stream end?). Exiting ...")
+            break
+```
 
