@@ -85,3 +85,4 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
 #### Horizontal bar plot with increasing order of sizes
 ![image](https://github.com/ThisIs-Developer/Body-Language-Detection-with-MediaPipe-and-OpenCV/assets/109382325/4f24a433-daac-4024-90ff-34f00f9c2825)
 
+
