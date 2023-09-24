@@ -35,11 +35,10 @@ The first model is built using **Scikit-Learn** and is stored in a **.pkl (Pytho
 
 The second model is built using **TensorFlow-Keras** and is stored in a **TensorFlow Lite (.tflite) format**. 
 1. It Builds and compiles a neural network model for classification.
-   ```python
-       model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
+```python
+model.compile(optimizer='adam',           loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
-   ```
+```
 2. It trains the model with relevant metrics. 
 3. It converts and saves the model in TensorFlow Lite format for mobile deployment.
    ```python
